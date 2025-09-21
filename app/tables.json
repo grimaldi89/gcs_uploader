@@ -1,0 +1,14 @@
+[
+  {
+    "project":"homelab-466922",
+    "dataset": "analysis",
+    "tables": [
+      {
+        "table_name": "sample",
+        "sharded": false,
+        "date_partition_field": "date",
+        "refresh_window": 5
+      }
+    ]
+  }
+]
